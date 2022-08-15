@@ -20,7 +20,7 @@ By using the 7812 voltage regulator
 ### 32V to 5V circuit
 By using the 7805 voltage regulator 
 <br/> Here is the circuit
-![alt text](https://github.com/Maashn5/voltageRegulation_turningServoOnOff/blob/main/voltag%20regulation%20circuits/32V%20to%205V.png)
-![to simulate this circuit]()
+<br/> ![alt text](https://github.com/Maashn5/voltageRegulation_turningServoOnOff/blob/main/voltag%20regulation%20circuits/32V%20to%205V.png)
+<br/> [to simulate this circuit]()
 ### 32V to 3V circuit
 ## Servo powering  control
