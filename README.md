@@ -21,6 +21,13 @@ By using the 7812 voltage regulator
 By using the 7805 voltage regulator 
 <br/> Here is the circuit
 <br/> ![alt text](https://github.com/Maashn5/voltageRegulation_turningServoOnOff/blob/main/voltag%20regulation%20circuits/32V%20to%205V.png)
-<br/> [to simulate this circuit]()
+<br/> [to simulate this circuit](https://www.tinkercad.com/things/laX98gXqM8H?sharecode=nQxdczENGlHFuVGhYSvVBZH5WhjC2RUMfmt_6S-hIGo)
 ### 32V to 3V circuit
+By using the 7803 voltage regulator
+<br/> But since tinkercad doesn't support 7803, so we will use LD1117V33 
+<br/> LD1117V33 support -250mV to 15V input & get out 3.3 
+<br/> Since LD1117V33 doesn't support 32V input , so we need to get down the voltage first by 7805
+<br/> Here is the circuit
+<br/> ![alt text](https://github.com/Maashn5/voltageRegulation_turningServoOnOff/blob/main/voltag%20regulation%20circuits/32V%20to%203.3V.png)
+<br/> [to simulate this circuit](https://www.tinkercad.com/things/lfdQ7V9JM2c?sharecode=Mub9myPmo4xaRgHqd6fGn3wrFfofS_RkBZh2s5yQ234)
 ## Servo powering  control
