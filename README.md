@@ -31,3 +31,10 @@ By using the 7803 voltage regulator
 <br/> ![alt text](https://github.com/Maashn5/voltageRegulation_turningServoOnOff/blob/main/voltag%20regulation%20circuits/32V%20to%203.3V.png)
 <br/> [to simulate this circuit](https://www.tinkercad.com/things/lfdQ7V9JM2c?sharecode=Mub9myPmo4xaRgHqd6fGn3wrFfofS_RkBZh2s5yQ234)
 ## Servo powering control
+To control the power for one servo we can connect one of the digital output pin of the arduino to the power pin in the sevo motor
+<br/> But for multiple sero motors we can't do the same thing, due to the high current that absorbed by th motors that <br/> the arduino can't handle, thus we must insert an intermidate circuit to control the servo's power
+<br/> Let's first write a truth table for our circuit
+|arduino signal | Servo status  |
+| ------------- |:-------------:| 
+| HIGH (1)      | HIGH (1) | 
+| LOW (0)       | LOW (0)  |
