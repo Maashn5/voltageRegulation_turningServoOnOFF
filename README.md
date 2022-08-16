@@ -30,4 +30,4 @@ By using the 7803 voltage regulator
 <br/> Here is the circuit
 <br/> ![alt text](https://github.com/Maashn5/voltageRegulation_turningServoOnOff/blob/main/voltag%20regulation%20circuits/32V%20to%203.3V.png)
 <br/> [to simulate this circuit](https://www.tinkercad.com/things/lfdQ7V9JM2c?sharecode=Mub9myPmo4xaRgHqd6fGn3wrFfofS_RkBZh2s5yQ234)
-## Servo powering  control
+## Servo powering control
