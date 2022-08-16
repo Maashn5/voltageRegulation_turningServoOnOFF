@@ -38,6 +38,8 @@ To control the power for one servo we can connect one of the digital output pin 
 | ------------- |:-------------:| 
 | HIGH (1)      | HIGH (1) | 
 | LOW (0)       | LOW (0)  |
+
+
 <br/> From the truth table , this circuit is called Buffer (non-inverting) circuit 
 <br/> There are sevral circuit for this purpose, one of the simplest circuit is by using BJT transistor with a resistance like the circut below
 <br/> ![alt text](https://github.com/Maashn5/voltageRegulation_turningServoOnOff/blob/main/turn_on_off_servo/BJT%20with%20R%20Buffer%20circuit-schematic.png)
