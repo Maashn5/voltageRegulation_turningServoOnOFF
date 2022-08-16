@@ -16,7 +16,7 @@ Since the robot's main power source is 32V DC battery & there are several electr
 ### 32V to 12V circuit
 By using the 7812 voltage regulator 
 <br/> Here is the circuit
-![alt text](https://protosupplies.com/wp-content/uploads/2017/11/7812-Basic-Circuit.jpg)
+<br/> ![alt text](https://protosupplies.com/wp-content/uploads/2017/11/7812-Basic-Circuit.jpg)
 ### 32V to 5V circuit
 By using the 7805 voltage regulator 
 <br/> Here is the circuit
