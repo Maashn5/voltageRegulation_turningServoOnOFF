@@ -38,3 +38,61 @@ To control the power for one servo we can connect one of the digital output pin 
 | ------------- |:-------------:| 
 | HIGH (1)      | HIGH (1) | 
 | LOW (0)       | LOW (0)  |
+<br/> From the truth table , this circuit is called Buffer (non-inverting) circuit 
+<br/> There are sevral circuit for this purpose, one of the simplest circuit is by using BJT transistor with a resistance like the circut below
+<br/> ![alt text](https://github.com/Maashn5/voltageRegulation_turningServoOnOff/blob/main/turn_on_off_servo/BJT%20with%20R%20Buffer%20circuit-schematic.png)
+<br/> But one of the major disadvantage is the high power dissipation ,due the resistor & the bjt 
+<br/> Second disadvantage is the high output voltage is less than the battery voltage
+<br/> Due these disadvantages , we must use another circuit by different components
+<br/> One of the most famous & efficient buffer circuit is the CMOS buffer circuit
+<br/> Its power dissipation is almost zero & the high output voltage equals the battery voltage & the low output voltage equals zero ,since it uses PMOS & NMOS transistor only.
+<br/> The circuit is below
+<br/> ![alt text](https://github.com/Maashn5/voltageRegulation_turningServoOnOff/blob/main/turn_on_off_servo/CMOS%20buffer%20circuit-schematic.png)
+<br/> [To simulate CMOS buffer circuit](https://www.multisim.com/content/LWUnAxBLKDmTSSk8Fo5zxj/cmos-buffer-circuit/)
+<br/> By using the arduino & the push button to turn the servo on off , here is the circuit
+<br/> ![alt text](https://github.com/Maashn5/voltageRegulation_turningServoOnOff/blob/main/turn_on_off_servo/CMOS%20buffer%20control%20servo.png)
+<br/> Here is the code 
+<br/> ``` C++
+#include <Servo.h>
+
+int a;//the switich indicator
+
+
+Servo myServo;
+void setup()
+{
+  pinMode(7, INPUT);
+  pinMode(4, OUTPUT);
+
+  myServo.attach(3);
+}
+
+void loop()
+{
+ a=digitalRead(7);//reading the switich value
+
+
+  
+
+  
+  digitalWrite(4,a);// powering the servo by the switich
+
+
+   if (a==HIGH){// if a is high then move the servo
+
+
+  myServo.write(90);
+  
+  }
+
+  
+    
+    
+    
+    
+    
+
+  
+}
+```
+<br/> [To simulate CMOS buffer control servo power](https://www.tinkercad.com/things/cKn6IufRo5A?sharecode=IBcogcZwUY4ZSpuzyfJ9KExU3EoUowoByBjUf1ZP_E0)
