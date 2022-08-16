@@ -54,7 +54,8 @@ To control the power for one servo we can connect one of the digital output pin 
 <br/> By using the arduino & the push button to turn the servo on off , here is the circuit
 <br/> ![alt text](https://github.com/Maashn5/voltageRegulation_turningServoOnOff/blob/main/turn_on_off_servo/CMOS%20buffer%20control%20servo.png)
 <br/> Here is the code 
-<br/> ``` c++
+<br/> 
+```c++
 #include <Servo.h>
 
 int a;//the switich indicator
